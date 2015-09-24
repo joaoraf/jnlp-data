@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.nom.nicola.joao.tools</groupId>
 	<artifactId>jnlp-data_${scala.version}</artifactId>
 	<packaging>jar</packaging>
-	<version>1.1.1-SNAPSHOT</version>
+	<version>1.1.1</version>
 
 	<name>Parser, Serializer and Case Classes for JNLP</name>
 
@@ -20,7 +19,7 @@
 		<url>scm:git:git@github.com:joaoraf/jnlp-data.git</url>
 		<developerConnection>scm:git:git@github.com:joaoraf/jnlp-data.git</developerConnection>
 		<connection>scm:git:git@github.com:joaoraf/jnlp-data.git</connection>
-		<tag>HEAD</tag>
+		<tag>jnlp-data_2.11-1.1.1</tag>
 	</scm>
 
 	<build>
